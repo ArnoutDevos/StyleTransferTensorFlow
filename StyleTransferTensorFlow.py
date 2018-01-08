@@ -21,7 +21,7 @@ OUTPUT_DIR = 'output/'
 # Style image to use.
 STYLE_IMAGE = 'images/muse.jpg'
 # Content image to use.
-CONTENT_IMAGE = 'images/trojan_shrine.jpg'
+CONTENT_IMAGE = 'images/hollywood_sign.jpg'
 # Image dimensions constants. 
 IMAGE_WIDTH = 640
 IMAGE_HEIGHT = 480
@@ -84,7 +84,7 @@ def main():
     sess.run(model['input'].assign(input_image))
     for it in range(ITERATIONS):
       sess.run(train_step)
-      # print('Iteration %d' % (it))
+      print('Iteration %d' % (it))
       if it % 50 == 0:
         # Print every 50 iterations.
         mixed_image = sess.run(model['input'])
