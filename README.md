@@ -13,7 +13,7 @@ A more verbose version giving a deeper explanation and going over equations can 
 3. Python packages : NumPy, SciPy
 4. Pretrained VGG19 file : [imagenet-vgg-verydeep-19.mat](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Please download the file from link above.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Download the file from the link above.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Save the file under `model`
 
 ### Running
